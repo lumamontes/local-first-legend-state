@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, ScrollView, Platform, Pressable } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-import { observer, use$ } from '@legendapp/state/react';
+import { observer, use$, useObserve } from '@legendapp/state/react';
 import { useObservable } from '@legendapp/state/react';
 import NetInfo from '@react-native-community/netinfo';
-import { syncState } from "@legendapp/state"
+import { observable, syncState } from "@legendapp/state"
 
 import '../global.css';
 import { postStore$ } from 'store/posts';
@@ -145,6 +145,20 @@ const CreatePostForm = observer(() => {
   );
 });
 
+const networkState$ = observable({ isConnected: true });
+
+if (typeof window !== 'undefined') { 
+  NetInfo.fetch().then(state => {
+    networkState$.isConnected.set(!!state.isConnected);
+  });
+  
+  NetInfo.addEventListener(state => {
+    console.log('Connection status changed:', state.isConnected ? 'online' : 'offline');
+    networkState$.isConnected.set(!!state.isConnected);
+  });
+}
+
+
 const ConnectionStatus = observer(({ status }: { status: string }) => {
   const getStatusColor = () => {
     switch (status) {
@@ -177,14 +191,19 @@ const App = observer(() => {
   const isError = state$.error.get();
   const error = state$.error.get();
   
-  useEffect(() => {
+ useObserve(() => {
+    NetInfo.fetch().then(state => {
+      connectivityStatus$.set(state.isConnected ? 'online' : 'offline');
+    });
+    
     const unsubscribe = NetInfo.addEventListener(state => {
       connectivityStatus$.set(state.isConnected ? 'online' : 'offline');
     });
-
-    return () => unsubscribe();
-  }, []);
-
+    
+    return unsubscribe;
+  });
+  
+  const connectivityStatus = connectivityStatus$.get();
   return (
     <View className="flex-1 bg-gray-50">
       <ScrollView className="flex-1 px-4 pt-12">
@@ -192,7 +211,7 @@ const App = observer(() => {
           <Text className="text-3xl font-bold text-gray-900">Posts</Text>
         </View>
 
-        <ConnectionStatus status={connectivityStatus$.get()} />
+        <ConnectionStatus status={connectivityStatus} />
 
         {isError && (
           <View className="mb-6 rounded-lg bg-red-100 p-4">
