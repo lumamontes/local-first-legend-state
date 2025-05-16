@@ -25,7 +25,7 @@ LocalSync RN é um projeto demonstrativo de uma aplicação React Native que imp
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/localsync-rn.git
+git clone https://github.com/lumamontes/local-first-legend-state.git
 
 # Entre na pasta do projeto
 cd localsync-rn
@@ -82,7 +82,7 @@ LocalSync RN is a demonstration project of a React Native application that imple
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/localsync-rn.git
+git clone https://github.com/lumamontes/local-first-legend-state.git
 
 # Enter the project folder
 cd localsync-rn
