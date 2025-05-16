@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1747375325064" clover="3.2.0">
+  <project timestamp="1747375325064" name="All files">
+    <metrics statements="170" coveredstatements="141" conditionals="21" coveredconditionals="18" methods="34" coveredmethods="25" elements="225" coveredelements="184" complexity="0" loc="170" ncloc="170" packages="8" files="10" classes="10"/>
+    <package name="src">
+      <metrics statements="48" coveredstatements="24" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="app.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/app.ts">
+        <metrics statements="25" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+      </file>
+      <file name="server.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/server.ts">
+        <metrics statements="23" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.config">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="swagger.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/config/swagger.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.controllers">
+      <metrics statements="37" coveredstatements="36" conditionals="11" coveredconditionals="10" methods="5" coveredmethods="5"/>
+      <file name="post.controller.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/controllers/post.controller.ts">
+        <metrics statements="37" coveredstatements="36" conditionals="11" coveredconditionals="10" methods="5" coveredmethods="5"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="80" count="7" type="stmt"/>
+        <line num="81" count="7" type="stmt"/>
+        <line num="83" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="87" count="6" type="stmt"/>
+        <line num="88" count="6" type="stmt"/>
+        <line num="90" count="6" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="123" count="3" type="stmt"/>
+        <line num="124" count="3" type="stmt"/>
+        <line num="125" count="3" type="stmt"/>
+        <line num="127" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="128" count="1" type="stmt"/>
+        <line num="131" count="2" type="stmt"/>
+        <line num="132" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="133" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="134" count="2" type="cond" truecount="0" falsecount="1"/>
+        <line num="136" count="2" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="143" count="2" type="stmt"/>
+        <line num="165" count="2" type="stmt"/>
+        <line num="166" count="2" type="stmt"/>
+        <line num="167" count="2" type="stmt"/>
+        <line num="168" count="1" type="stmt"/>
+        <line num="170" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.middlewares">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="request-logger.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/middlewares/request-logger.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="17" type="stmt"/>
+        <line num="7" count="17" type="stmt"/>
+        <line num="9" count="17" type="stmt"/>
+        <line num="17" count="17" type="stmt"/>
+        <line num="19" count="17" type="stmt"/>
+        <line num="20" count="17" type="stmt"/>
+        <line num="22" count="17" type="stmt"/>
+        <line num="31" count="17" type="stmt"/>
+        <line num="33" count="17" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.repositories">
+      <metrics statements="24" coveredstatements="24" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9"/>
+      <file name="post.repository.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/repositories/post.repository.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="53" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="62" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.routes">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="post.routes.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/routes/post.routes.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.services">
+      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="post.service.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/services/post.service.ts">
+        <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="9" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.utils">
+      <metrics statements="19" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="3"/>
+      <file name="error-handler.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/utils/error-handler.ts">
+        <metrics statements="15" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="21" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="28" count="6" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+      </file>
+      <file name="logger.ts" path="/Users/luma/www/pi/local-first-legend-state/api/src/utils/logger.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="15" count="55" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
