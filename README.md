@@ -1,5 +1,9 @@
 # 🔄 LocalSync RN
 
+
+https://github.com/user-attachments/assets/7314b0a5-42fa-400d-96ba-b0dcd26c2fda
+
+
 **LocalSync RN** é uma implementação de aplicativo Local-First usando Legend State para React Native.
 
 [![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
